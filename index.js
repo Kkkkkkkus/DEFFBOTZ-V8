@@ -45,12 +45,12 @@ await sleep(5000)
 console.clear() 
 console.log(color(`█████████████████████████\n█▄─▄▄▀█▄─▄▄─█▄─▄▄─█▄─▄▄─█\n██─██─██─▄█▀██─▄████─▄███\n▀▄▄▄▄▀▀▄▄▄▄▄▀▄▄▄▀▀▀▄▄▄▀▀▀`)) 
 const users = [
-		{Creator: 'DEFF', Whatsapp: 6289501060783, NameBot: global.namebot, Versi: 7 }
+		{Creator: 'LuckXxy', Whatsapp: 6285904142544, NameBot: global.namebot, Versi: 7 }
 		];
 		console.table(users)
 
 
-sock.browserDescription = ["DEFF-MD", "Mac", "3.0.0"];
+sock.browserDescription = ["DarkStalker BOT", "Mac", "3.0.0"];
 sock.ev.on('messages.upsert', async chatUpdate => {
 try {
 mek = chatUpdate.messages[0]
